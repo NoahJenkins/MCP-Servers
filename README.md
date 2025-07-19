@@ -1,34 +1,36 @@
 # MCP-Servers
-these are the MCP Servers I am personally using in my projects. 
 
+This repository contains links and references to various Model Context Protocol (MCP) servers i use in my own projects. Each MCP server provides specialized capabilities to enhance development workflows, context management, search, automation, and integration.
 
-Context7 MCP Server:
-https://github.com/upstash/context7
+---
 
-Sequential Thinking MCP Server:
-https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+## MCP Servers Overview
 
-Brave Search MCP Server:
-https://brave.com/search/api/guides/use-with-claude-desktop-with-mcp/
+### [Context7 MCP Server](https://github.com/upstash/context7)
+A context management server designed to store, retrieve, and manage contextual data for AI and automation workflows. Enables efficient context sharing between agents and applications. I use this as my primary knoledge base when I need an Model to reference documentation. 
 
-Microsoft learn documents MCP Server:
-https://github.com/microsoftdocs/mcp?tab=readme-ov-file
+### [Brave Search MCP Server](https://brave.com/search/api/guides/use-with-claude-desktop-with-mcp/)
+Integrates Brave Search API with MCP, allowing agents to perform real-time web searches and retrieve up-to-date information programmatically. This is what I use when the Context7 fails to yield information. 
 
-Azure MCP Server:
-https://github.com/Azure/azure-mcp
+### [Sequential Thinking MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
+Implements sequential reasoning and stepwise task execution for AI agents, supporting complex multi-step workflows and decision-making processes.
 
-GitHub MCP Server:
-https://github.com/github/github-mcp-server
+### [Microsoft Learn Documents MCP Server](https://github.com/microsoftdocs/mcp?tab=readme-ov-file)
+Provides access to Microsoft Learn documentation through MCP, enabling automated retrieval and integration of official Microsoft technical resources.
 
-Playwright MCP Server:
-https://github.com/microsoft/playwright-mcp
+### [Azure MCP Server](https://github.com/Azure/azure-mcp)
+Facilitates integration with Microsoft Azure services, allowing MCP agents to interact with Azure APIs for cloud resource management and automation.
 
-Other Resources:
-10 Microsoft MCP Servers to Accelerate your Development Workflow: https://devblogs.microsoft.com/blog/10-microsoft-mcp-servers-to-accelerate-your-development-workflow 
+### [GitHub MCP Server](https://github.com/github/github-mcp-server)
+Enables MCP-based automation and data retrieval from GitHub, supporting repository management, issue tracking, and workflow integration.
 
+### [Playwright MCP Server](https://github.com/microsoft/playwright-mcp)
+Connects Playwright browser automation capabilities to MCP, enabling automated browser testing and web interaction within MCP workflows.
 
+---
 
+## Additional Resources
 
+- [10 Microsoft MCP Servers to Accelerate your Development Workflow](https://devblogs.microsoft.com/blog/10-microsoft-mcp-servers-to-accelerate-your-development-workflow)
 
-
-
+- [Using MCP Servers with Roo Code (If you are not already using Roo Code, I highly reccomend checking it out!)](https://docs.roocode.com/features/mcp/using-mcp-in-roo)
