@@ -27,6 +27,9 @@ Enables MCP-based automation and data retrieval from GitHub, supporting reposito
 ### [Playwright MCP Server](https://github.com/microsoft/playwright-mcp)
 Connects Playwright browser automation capabilities to MCP, enabling automated browser testing and web interaction within MCP workflows.
 
+### [Shadcn UI MCP Server](https://github.com/Jpisnice/shadcn-ui-mcp-server)
+Integrates Shadcn UI component library management into MCP workflows, enabling automated UI generation, customization, and seamless integration of Shadcn UI components for rapid front-end development.
+
 ---
 
 ## Additional Resources
